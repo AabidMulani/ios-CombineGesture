@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77182E261970FAA5001069FD /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 77182E251970FAA5001069FD /* cat.png */; };
 		77AA4F7F17CD32760052EBE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AA4F7E17CD32760052EBE4 /* UIKit.framework */; };
 		77AA4F8117CD32760052EBE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AA4F8017CD32760052EBE4 /* Foundation.framework */; };
 		77AA4F8317CD32760052EBE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AA4F8217CD32760052EBE4 /* CoreGraphics.framework */; };
@@ -23,6 +24,7 @@
 		77AA4FA517CD32770052EBE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AA4F8017CD32760052EBE4 /* Foundation.framework */; };
 		77AA4FAD17CD32770052EBE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77AA4FAB17CD32770052EBE4 /* InfoPlist.strings */; };
 		77AA4FB017CD32770052EBE4 /* CombineGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AA4FAF17CD32770052EBE4 /* CombineGestureTests.m */; };
+		77AA4FBA17CD33820052EBE4 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 77AA4FB917CD33820052EBE4 /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77182E251970FAA5001069FD /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
 		77AA4F7A17CD32760052EBE4 /* CombineGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AA4F7E17CD32760052EBE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		77AA4F8017CD32760052EBE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +61,7 @@
 		77AA4FAC17CD32770052EBE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		77AA4FAE17CD32770052EBE4 /* CombineGestureTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombineGestureTests.h; sourceTree = "<group>"; };
 		77AA4FAF17CD32770052EBE4 /* CombineGestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombineGestureTests.m; sourceTree = "<group>"; };
+		77AA4FB917CD33820052EBE4 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				77AA4F8D17CD32760052EBE4 /* AppDelegate.h */,
+				77182E251970FAA5001069FD /* cat.png */,
 				77AA4F8E17CD32760052EBE4 /* AppDelegate.m */,
 				77AA4F9617CD32770052EBE4 /* ViewController.h */,
 				77AA4F9717CD32770052EBE4 /* ViewController.m */,
@@ -130,6 +135,7 @@
 		77AA4F8517CD32760052EBE4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				77AA4FB917CD33820052EBE4 /* image.png */,
 				77AA4F8617CD32760052EBE4 /* CombineGesture-Info.plist */,
 				77AA4F8717CD32760052EBE4 /* InfoPlist.strings */,
 				77AA4F8A17CD32760052EBE4 /* main.m */,
@@ -236,6 +242,8 @@
 				77AA4F9317CD32760052EBE4 /* Default@2x.png in Resources */,
 				77AA4F9517CD32770052EBE4 /* Default-568h@2x.png in Resources */,
 				77AA4F9B17CD32770052EBE4 /* ViewController.xib in Resources */,
+				77182E261970FAA5001069FD /* cat.png in Resources */,
+				77AA4FBA17CD33820052EBE4 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +454,7 @@
 				77AA4FB517CD32770052EBE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77AA4FB617CD32770052EBE4 /* Build configuration list for PBXNativeTarget "CombineGestureTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +463,7 @@
 				77AA4FB817CD32770052EBE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
